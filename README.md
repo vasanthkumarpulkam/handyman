@@ -1,11 +1,10 @@
 # FIXR
 
-**A dual-experience marketplace interface — a warm, consumer-facing customer app and a dark, data-dense provider dashboard, built from one design system.**
+**A dual-experience marketplace interface - a warm, consumer-facing customer app and a dark, data-dense provider dashboard, built from one design system.**
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
@@ -19,7 +18,7 @@ Customers want warmth, trust signals, and as few decisions as possible. Provider
 
 Two complete token sets drive the same components:
 
-**Customer — warm editorial, trust-forward**
+**Customer - warm editorial, trust-forward**
 
 | Token | Value |
 |---|---|
@@ -29,7 +28,7 @@ Two complete token sets drive the same components:
 | Accent | `#F59B2B` amber |
 | Alert | `#E8453C` red |
 
-**Provider — dark professional, earnings-focused**
+**Provider - dark professional, earnings-focused**
 
 | Token | Value |
 |---|---|
@@ -39,7 +38,7 @@ Two complete token sets drive the same components:
 | Primary | `#2D8CFF` blue |
 | Accent | `#F5A623` gold |
 
-The customer palette leads with green for trust and reserves amber for attention. The provider palette leads with blue for focus and reserves gold for earnings — the number providers actually care about.
+The customer palette leads with green for trust and reserves amber for attention. The provider palette leads with blue for focus and reserves gold for earnings - the number providers actually care about.
 
 ## Screenshots
 
@@ -71,7 +70,7 @@ The customer palette leads with green for trust and reserves amber for attention
 |---|---|
 | Framework | React 18 with hooks (`useState`, `useEffect`, `useRef`) |
 | Language | TypeScript |
-| Styling | Inline design tokens — no CSS framework dependency |
+| Styling | Inline design tokens - no CSS framework dependency |
 | Build | Vite |
 
 ## Getting started
@@ -102,10 +101,10 @@ import FixrApp from './FixrApp';
 ```
 handyman/
 └── src/
-    └── FixrApp.tsx       The FIXR interface — design tokens, data, components
+    └── FixrApp.tsx       The FIXR interface - design tokens, data, components
 ```
 
-Vite scaffolding (`main.tsx`, `index.html`, `package.json`, `vite.config.ts`) still needs to be added — see the roadmap.
+Vite scaffolding (`main.tsx`, `index.html`, `package.json`, `vite.config.ts`) still needs to be added - see the roadmap.
 
 ## Design notes
 
@@ -123,13 +122,10 @@ Vite scaffolding (`main.tsx`, `index.html`, `package.json`, `vite.config.ts`) st
 
 ## Related projects
 
-- [Housecal Pro](https://github.com/vasanthkumarpulkam/code-companion-space) — the same marketplace concept, fully implemented on Supabase
-- [HandyConnect](https://github.com/vasanthkumarpulkam/studio) — Next.js + Firebase with AI-assisted bidding
+- [Housecal Pro](https://github.com/vasanthkumarpulkam/code-companion-space) - the same marketplace concept, fully implemented on Supabase
+- [HandyConnect](https://github.com/vasanthkumarpulkam/studio) - Next.js + Firebase with AI-assisted bidding
 
-## License
-
-MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-**Vasanth Kumar Pulkam** — [GitHub](https://github.com/vasanthkumarpulkam)
+**Vasanth Kumar Pulkam** - [GitHub](https://github.com/vasanthkumarpulkam)
